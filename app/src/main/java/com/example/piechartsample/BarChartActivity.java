@@ -58,6 +58,9 @@ public class BarChartActivity extends AppCompatActivity {
         BarData data = new BarData(year, barDataSet);
         barDataSet.setColors(ColorTemplate.COLORFUL_COLORS);
         barChart.setData(data);
+
+
+        System.out.println(data);
     }
 
 
