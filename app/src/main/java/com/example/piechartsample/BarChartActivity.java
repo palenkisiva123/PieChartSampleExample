@@ -61,6 +61,7 @@ public class BarChartActivity extends AppCompatActivity {
 
 
         System.out.println(data);
+        System.out.println("Hi");
     }
 
 
